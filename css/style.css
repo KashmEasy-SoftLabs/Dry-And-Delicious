@@ -11564,6 +11564,17 @@ h5,
   letter-spacing: 1px;
 }
 
+#home-section,
+.slider-item,
+.ftco-section {
+  overflow-y: auto;
+}
+
+.testimony-section {
+  overflow-y: scroll;
+
+}
+
 @media (max-width: 767.98px) {
   .topper {
     margin-bottom: 10px;
