@@ -501,15 +501,23 @@ mark,
 }
 
 .img-prod .img-fluid:hover {
-  scale: 0.9;
+
+  border-color: #333;
   transition: 0.6s ease;
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
 }
 
 .img-fluid {
-  max-width: 100%;
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  border: 2px solid transparent;
+  will-change: transform;
+  width: 100%;
   height: auto;
+
 }
 
 .img-thumbnail {
